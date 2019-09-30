@@ -1,8 +1,64 @@
 {
+  "get_recon_inquiries": [
+    {
+      "recon_inquiry_id": 1,
+      "inquiry_type": "change",
+      "file_type": "Excel",
+      "file_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "mode": "bi-directional",
+      "state": "submitted",
+      "subscriber_key_alias": "KA-123",
+      "provider_key_alias": "KA-456",
+      "additional_info": {
+        "index_id": "1",
+        "index_name": "name",
+        "security_id_type": "type",
+        "security_id": "1"
+      },
+      "endorsements": [
+        "KA-789",
+        "KA-101",
+        "KA-102"
+      ],
+      "restatement_notice_id": "RN-123"
+    }
+  ],
   "get_recon_inquiry_details": [
     {
-      "id": 1,
-      "thing": "cool"
+      "recon_inquiry_id": 1,
+      "inquiry_type": "change",
+      "file_type": "Excel",
+      "file_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "mode": "bi-directional",
+      "state": "submitted",
+      "subscriber_key_alias": "KA-123",
+      "provider_key_alias": "KA-456",
+      "additional_info": {
+        "index_id": "1",
+        "index_name": "name",
+        "security_id_type": "type",
+        "security_id": "1"
+      },
+      "inquiry": "Message",
+      "messages": [
+        "Hello",
+        "Hi"
+      ],
+      "resolution_note": "This is resolved",
+      "endorsements": [
+        "KA-789",
+        "KA-101",
+        "KA-102"
+      ],
+      "restatement_notice_id": "RN-123"
     }
   ]
 }
