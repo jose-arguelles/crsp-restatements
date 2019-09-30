@@ -1,7 +1,7 @@
 {
   "get_recon_inquiries": [
     {
-      "recon_inquiry_id": 1,
+      "recon_inquiry_id": "RI-456",
       "inquiry_type": "change",
       "file_type": "Excel",
       "file_ids": [
@@ -29,7 +29,7 @@
   ],
   "get_recon_inquiry_details": [
     {
-      "recon_inquiry_id": 1,
+      "recon_inquiry_id": "RI-456",
       "inquiry_type": "change",
       "file_type": "Excel",
       "file_ids": [
@@ -59,6 +59,24 @@
         "KA-102"
       ],
       "restatement_notice_id": "RN-123"
+    }
+  ],
+  "get_all_restatements": [
+    {
+      "restatement_notice_id": "RN-123",
+      "state": "notified",
+      "notice": "noticed",
+      "restatement_file_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "recon_inquiry_ids": [
+        "RN-123"
+      ],
+      "acknowledged_by": [
+        "KA-123"
+      ]
     }
   ]
 }
