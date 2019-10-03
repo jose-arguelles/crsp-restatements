@@ -77,6 +77,22 @@
       "acknowledged_by": [
         "KA-123"
       ]
+    },
+    {
+      "restatement_notice_id": "RN-123",
+      "state": "notified",
+      "notice": "noticed",
+      "restatement_file_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "recon_inquiry_ids": [
+        "RN-123"
+      ],
+      "acknowledged_by": [
+        "KA-123"
+      ]
     }
   ]
 }
