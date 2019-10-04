@@ -1,7 +1,7 @@
 {
   "get_recon_inquiries": [
     {
-      "recon_inquiry_id": "RI-456",
+      "recon_inquiry_id": "RI-123",
       "inquiry_type": "change",
       "file_type": "Excel",
       "file_ids": [
@@ -11,6 +11,84 @@
       ],
       "mode": "bi-directional",
       "state": "submitted",
+      "subscriber_key_alias": "KA-123",
+      "provider_key_alias": "KA-456",
+      "additional_info": {
+        "index_id": "1",
+        "index_name": "name",
+        "security_id_type": "type",
+        "security_id": "1"
+      },
+      "endorsements": [
+        "KA-789",
+        "KA-101",
+        "KA-102"
+      ],
+      "restatement_notice_id": "RN-123"
+    },
+    {
+      "recon_inquiry_id": "RI-456",
+      "inquiry_type": "change",
+      "file_type": "Excel",
+      "file_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "mode": "bi-directional",
+      "state": "under_review",
+      "subscriber_key_alias": "KA-123",
+      "provider_key_alias": "KA-456",
+      "additional_info": {
+        "index_id": "1",
+        "index_name": "name",
+        "security_id_type": "type",
+        "security_id": "1"
+      },
+      "endorsements": [
+        "KA-789",
+        "KA-101",
+        "KA-102"
+      ],
+      "restatement_notice_id": "RN-123"
+    },
+    {
+      "recon_inquiry_id": "RI-789",
+      "inquiry_type": "change",
+      "file_type": "Excel",
+      "file_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "mode": "bi-directional",
+      "state": "reconciled",
+      "subscriber_key_alias": "KA-123",
+      "provider_key_alias": "KA-456",
+      "additional_info": {
+        "index_id": "1",
+        "index_name": "name",
+        "security_id_type": "type",
+        "security_id": "1"
+      },
+      "endorsements": [
+        "KA-789",
+        "KA-101",
+        "KA-102"
+      ],
+      "restatement_notice_id": "RN-123"
+    },
+    {
+      "recon_inquiry_id": "RI-789",
+      "inquiry_type": "change",
+      "file_type": "Excel",
+      "file_ids": [
+        "1",
+        "2",
+        "3"
+      ],
+      "mode": "bi-directional",
+      "state": "retracted",
       "subscriber_key_alias": "KA-123",
       "provider_key_alias": "KA-456",
       "additional_info": {
@@ -80,7 +158,7 @@
     },
     {
       "restatement_notice_id": "RN-123",
-      "state": "notified",
+      "state": "restatement_complete",
       "notice": "noticed",
       "restatement_file_ids": [
         "1",
@@ -88,7 +166,7 @@
         "3"
       ],
       "recon_inquiry_ids": [
-        "RN-123"
+        "RN-456"
       ],
       "acknowledged_by": [
         "KA-123"
