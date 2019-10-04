@@ -79,7 +79,7 @@
       "restatement_notice_id": "RN-123"
     },
     {
-      "recon_inquiry_id": "RI-789",
+      "recon_inquiry_id": "RI-101",
       "inquiry_type": "change",
       "file_type": "Excel",
       "file_ids": [
@@ -152,9 +152,7 @@
       "recon_inquiry_ids": [
         "RN-123"
       ],
-      "acknowledged_by": [
-        "KA-123"
-      ]
+      "acknowledged_by": []
     },
     {
       "restatement_notice_id": "RN-123",
